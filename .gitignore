@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-pydantic_fsspec/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!pydantic_fsspec/extension/pydantic_fsspec.json
-!pydantic_fsspec/extension/install.json
+pydantic_fsspec/extension
 pydantic_fsspec/nbextension
 pydantic_fsspec/labextension
 
@@ -157,3 +155,7 @@ pydantic_fsspec/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
