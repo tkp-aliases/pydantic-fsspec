@@ -1,4 +1,4 @@
-from pydantic_fsspec import *  # noqa
+from pydantic_fsspec import *
 
 
 def test_all():
